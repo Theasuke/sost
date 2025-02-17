@@ -106,18 +106,6 @@ body{
     border: 1px solid rgb(107, 10, 67);;
 }
 
-.accordion {
-    background-color: rgb(226, 187, 203);
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-
-
 @media only screen and (max-width: 600px) {
     .personagens h1 {
         font-size: 3em;
@@ -125,7 +113,6 @@ body{
 
     .personagens #button{
         margin: 0 auto;
-        margin-left: 25%;
         color: aliceblue;
         padding: 10px 20px;
         background-color: black;
