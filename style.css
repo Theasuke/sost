@@ -130,4 +130,12 @@ body{
     .ficha p{
         font-size: 15px;
     }
+
+      .main{
+        padding-top: 0%;
+    }
+
+    .main h1{
+        font-size: 6em;
+    }
   }
