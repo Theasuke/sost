@@ -71,12 +71,13 @@ body{
 }
 
 .fichas{
-    background-color: rgb(226, 187, 203);
+    
 }
 
 .ficha{
     padding: 40px;
     display: flex;
+    background-color: rgb(226, 187, 203);
 }
 
 .imagem{
@@ -86,10 +87,6 @@ body{
 
 .imagem img{
     width: 100%;
-}
-
-.categoria{
-   
 }
 
 .categoria h2{
@@ -106,6 +103,31 @@ body{
     border: 1px solid rgb(107, 10, 67);;
 }
 
+.ficha2{
+    padding: 40px;
+    display: flex;
+    background-color: rgb(20, 20, 20);
+}
+
+.ficha2 p{
+    color: #a5a2a3;
+}
+
+.ficha2 h2{
+    color: #88775e;
+}
+
+.campo2 p{
+    padding: 10px 15px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    border: 1px solid #88775e;
+}
+
+.categoria{
+    min-width: 65vw;
+}
+
 @media only screen and (max-width: 600px) {
     .personagens h1 {
         font-size: 3em;
@@ -113,13 +135,16 @@ body{
 
     .personagens #button{
         margin: 0 auto;
-        color: aliceblue;
         padding: 10px 20px;
         background-color: black;
         text-align: center;
     }
 
     .ficha{
+        display: block;
+    }
+
+    .ficha2{
         display: block;
     }
 
@@ -131,11 +156,17 @@ body{
         font-size: 15px;
     }
 
-      .main{
+    .ficha2 p{
+        font-size: 15px;
+    }
+
+    .main{
         padding-top: 0%;
     }
 
     .main h1{
         font-size: 6em;
     }
+    
   }
+
